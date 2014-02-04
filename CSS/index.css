@@ -1,0 +1,39 @@
+*{
+    border-style:solid
+}
+html, body {height: 100%;
+    		margin: 0;
+    	}
+#navbar{top:87%;
+    display:inline-block;
+	position:fixed;
+        
+}
+
+
+
+.navblock{
+font-family:"Impact";
+ display:inline-block;
+	position:static;
+	top:87%;
+	width:33%;
+	height:90%;
+	float:right;
+	z-index:2;
+	text-align:left;
+        background-color:#F3ecc2;
+}
+#navbar:hover{
+    top:5%;
+}
+
+.navblock:hover{
+  background-color:#aedddd;
+  
+  
+}
+.navblock:active{
+    background-color:#F3ecc2
+}
+ 
