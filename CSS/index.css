@@ -19,7 +19,7 @@ z-index: -1;
 #topwrap{
 	min-height: 10%;
 	max-height:10%;
-	background-color: #9d18cc;
+	background-color: #93ebbe;
 	width:100%;
 }
 
@@ -31,7 +31,7 @@ z-index: 1;
 	padding-bottom: 20%;
 	padding-right:25%;
 	position:relative;
-	background-color:#0e0433;
+	background-color:#;
 	background-origin:border-box; 
 	max-height: 25%;
 }
@@ -85,8 +85,7 @@ button {
 }
 
 button:hover{
-	font-weight: bold;
-	background-color: #000433;
-	-webkit-transform: scale(2);
+
+
 }
 	
