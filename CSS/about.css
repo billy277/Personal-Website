@@ -3,48 +3,57 @@
 }
 
 
-html, body {height: 100%;
+html, body {
     		margin: 0;
     	}
 
   body{
 
 
-/*background-color: #9D18cc;
+background-color: #9D18cc;
 background-size:100% 100%;
 background-repeat:no-repeat;
 z-index: -1;
   }
+
+/* Below is the CSS for the TOPWRAP*/
 
 #topwrap{
 	min-height: 10%;
 	max-height:10%;
 	background-color: #93ebbe;
 	width:100%;
+	Display:inline-block;
 }
 
-
-.logocontainer{
-z-index: 1;
+#topwrap h1 {
+	float:left;
+}
+#sociallinks{
+	float:right;
+	width:50%;
 	position:relative;
-	background-color:#;
-	background-origin:border-box; 
-	max-height: 25%;
 }
- #logo{
- 	padding-left: 25%;
- 	position:relative;
+#logo{
+	min-height: 30%;
+	min-width: 30%;
+	}
 
- }
 .logo1{
+	float: right;
+	position:relative;
+	display:inline-table;
 	z-index: 2;
-	max-height: 100%;
+	height:15%;
 	width: 15%;
-	margin-left:5%;
 	background-color:#0e0433
 	background-origin:border-box; 
 }
 
+/* Below is the CSS for the CURRENT EVENTS BAR*/
+
+
+/* Below is the CSS for the NAVBAR*/
 #navbarwrap{
 	position:fixed; 
 	top:85%;
@@ -55,6 +64,7 @@ z-index: 1;
 
 	
 }
+
 
 #navbarwrap div {
 	position:relative;
