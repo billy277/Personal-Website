@@ -5,16 +5,18 @@
 
 */
 html, body {
-    		margin: 10px;
+    		margin-right: 1%;
+    		margin-left: 1%;
+    		margin-bottom: 0.5%;
     	}
 
   body{
 
 
-background-color: #9D18cc;
-background-size:100% 100%;
-background-repeat:no-repeat;
-z-index: -1;
+	background-color: #aaaaaa;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	z-index: -1;
   }
 
 /* Below is the CSS for the TOPWRAP*/
@@ -23,12 +25,15 @@ z-index: -1;
 	min-height: 10%;
 	max-height:10%;
 	background-color: #93ebbe;
-	width:100%;
-	Display:inline-block;
+	max-width:100%;
+	display:inline-block;
+	margin-left:10%;
 }
 
 #topwrap h1 {
 	float:left;
+	padding-left:10%;
+
 }
 #sociallinks{
 	float:right;
@@ -55,6 +60,7 @@ z-index: -1;
 	display:inline-block;
 	float:left;
 	max-width:75%;
+	padding-left: 10%;
 	
 }
 
@@ -67,11 +73,14 @@ z-index: -1;
 	border:3px;
 	border: solid 2px;
 	padding-left: 2%;
-	min:10%;
+	right:-230px;
+
 }
 
 #current{
 	position:relative;
+	display:inline-block;
+	float:right;
 }
 
 .currentlink{
@@ -79,10 +88,24 @@ z-index: -1;
 
 }
 
+#expandbutton{
+	top:80px;
+	margin-right:10px;
+	margin-left: -15px;
+	display:inline-block;
+	min-height:30px;
+	min-width:40px;
+	position:relative;
+	border:solid 3px;
+	float:left;
+	z-index: 2;
+
+}
 
 /* Below is the CSS for the NAVBAR*/
 #navbarwrap{
-	position:fixed; 
+	position:fixed;
+
 	top:85%;
 	height:10%;
 	width:100%;
