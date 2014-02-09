@@ -12,7 +12,7 @@ html, body {
 
   body{
 
-
+  	font-family: Helevetica;
 	background-color: #aaaaaa;
 	background-size:100% 100%;
 	background-repeat:no-repeat;
@@ -32,7 +32,7 @@ html, body {
 
 #topwrap h1 {
 	float:left;
-	padding-left:10%;
+	padding-left:2%;
 
 }
 #sociallinks{
@@ -40,10 +40,6 @@ html, body {
 	width:50%;
 	position:relative;
 }
-#logo{
-	min-height: 10%;
-	min-width: 20%;
-	}
 
 .logo1{
 	float: right;
@@ -111,6 +107,7 @@ html, body {
 	width:100%;
 	background-color: #0e0433;
 	margin-bottom: 40%;
+	margin-left: -10px;
 
 	
 }
@@ -119,7 +116,6 @@ html, body {
 #navbarwrap div {
 	position:relative;
 	display: inline-block;
-	margin-left: 10px;
 	max-width: 40%;
 	min-width: 15%;
 	padding-left: 30px;
