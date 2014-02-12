@@ -10,10 +10,16 @@ html, body {height: 100%;
   body{
 
 
-background-color: #EFF5FB;
-background-size:100% 100%;
-background-repeat:no-repeat;
-z-index: -1;
+/*Below is the CSS for the backgorund*/
+	background-color:#EFF5FB;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	background-attachment: scroll;
   }
 
 /*Below is the CSS for the TOPWRAP */
@@ -28,6 +34,8 @@ z-index: -1;
 	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center center;
+	-webkit-box-reflect:below 0px
+	-webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
 
 }
 
@@ -131,8 +139,7 @@ blockquote .source {
 }
 h2 {
 	color:rgba(0,0,0,0.4);
-	background-color: ##EFF5FB;
-	border: solid 2px #EFF5FB ;
+	background-color: ##EFF5Fc;
 	font-family:helvetica;
 	font-size: 1em;
 }
@@ -146,6 +153,12 @@ h2 {
 	margin-top: 80px;
 	box-shadow: 0 -1px 1px -1px rgba(0,0,0,0.4);
 	text-align: center;
+	opacity: 0.7;	
+}
+
+#previews p{
+	opacity:1;
+	font-family: Oldenburg;
 }
 
 /*Below is the CSS for the FOOTER*/
@@ -157,4 +170,6 @@ h2 {
 	background-color:#434c56;
 	box-shadow: 0 -5px 2px -2px rgba(0,0,0,0.4);
 	text-align: center;
+	opacity: 0.7;
 }
+
