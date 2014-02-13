@@ -124,6 +124,8 @@ h2 {
 	font-family:helvetica;
 	font-size: 1em;
 	text-align: center;
+	text-decoration: none;
+
 
 }
 
@@ -137,6 +139,9 @@ h2 {
 	-webkit-transition: color 1s;
 }
 
+#Blog{
+	background-color: #434c56;
+}
 /*Below is the CSS for the SUBMENUNAVBAR */
 
 #submenuwrap{
@@ -181,8 +186,19 @@ h3 {
 	font-family:helvetica;
 	font-size: 1em;
 	text-align: center;
+	text-decoration: none;
 }
 
+a{
+	text-decoration:  none;
+}
+
+#about{
+	background-color:#EFF5FB; 
+}
+#about h3{
+	color:black;
+}
 /*Below is the CSS for the MAINCONTENT*/
 
 #maincontent{
