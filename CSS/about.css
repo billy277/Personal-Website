@@ -1,0 +1,248 @@
+*{
+    border: solid 2px
+  
+}
+
+html, body {height: 100%;
+    		margin: 0;
+    		h1 {font-size:40px;}
+			h2 {font-size:30px;}
+			p {font-size:20px;}
+    	}
+
+  body{
+
+/*Below is the CSS for the backgorund*/
+	background-color:#EFF5FB;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	background-attachment: scroll;
+  }
+
+
+/* Below is the CSS for the TOPWRAP*/
+
+#topwrap{
+	min-height:33%;
+	max-height: 33%;
+	background-color:#EFF5FB; 
+	min-width:100%;
+	max-width: 100%;
+	background-image: url(Images/topwrap.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
+	-webkit-box-reflect:below 0px
+	-webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));  
+
+}
+/*Below is the CSS for the MAIN CONTENT of the page*/
+
+
+
+/* Below is the CSS for the CURRENT EVENTS BAR*/
+#currentcontainer{
+	position:fixed;
+	display:inline-block;
+	float: right;
+	border:3px;
+	border: solid 2px;
+	padding-left: 2%;
+	right:-230px;
+
+}
+
+#current{
+	position:relative;
+	display:inline-block;
+	float:right;
+}
+
+.currentlink{
+	font-size: 8px;
+
+}
+
+#expandbutton{
+	top:80px;
+	margin-right:10px;
+	margin-left: -15px;
+	display:inline-block;
+	min-height:30px;
+	min-width:40px;
+	position:relative;
+	border:solid 3px;
+	float:left;
+	z-index: 2;
+
+}
+
+
+/* Below is the CSS for the NAVBAR*/
+
+#navbarwrap{
+	position:relative; 
+	height:5%;
+	width:100%;
+	margin-left: -10px;
+	margin-right: -30px;
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,0.4);
+}
+
+#navbarwrap div {
+	height:100%;
+	position:relative;
+	display: inline-block;
+	max-width: 40%;
+	min-width: 15%;
+	padding-left: 30px;
+
+}
+
+.navbar{
+	background-origin:border-box;
+	box-shadow: -2px 0 2px -2px rgba(0,0,0,0.4);
+}
+#name{
+	width: 30%;
+
+}
+.navbar h2 {
+	width:95%;
+	height: 90%;
+	text-align: center;
+	
+}
+h2 {
+	color:rgba(0,0,0,0.4);
+	font-family:helvetica;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+
+
+}
+
+.navbar:hover{
+	background-color: #434c56;
+	-webkit-transition: background-color 1s;
+}
+
+.navbar h2:hover{
+	color:black;
+	-webkit-transition: color 1s;
+}
+
+#current{
+	background-color: #434c56;
+	display: inline-block;
+}
+/*Below is the CSS for the SUBMENUNAVBAR */
+
+#submenuwrap{
+	position:relative; 
+	height:6%;
+	min-width:100%;
+	background-color: #434c56;
+	margin-left: -10px;
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,0.4);
+	margin-bottom: 20px;
+}
+
+#submenuwrap div {
+	background-origin: border-box;
+	position:relative;
+	display: inline-block;
+	max-width: 40%;
+	min-width: 10%;
+	height: 100%
+	left:10%;
+	padding-left: 30px;
+
+}
+
+.navbar2:hover{
+	background-color: #EFF5FB;
+	-webkit-transition: background-color 1s;
+}
+
+.navbar2 h3:hover{
+	color:black;
+	-webkit-transition: color 1s;
+}
+.navbar2 h3 {
+	width:95%;
+	height: 90%;
+	text-align: center;
+	
+}
+h3 {
+	color:white;
+	font-family:helvetica;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+}
+
+a{
+	text-decoration:  none;
+}
+
+#current2{
+	background-color:#EFF5FB; 
+}
+#current2 h3{
+	color:black;
+}
+/*Below is the CSS for the MAINCONTENT*/
+
+#maincontent{
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+}
+
+#maincontent p {
+	font-family: oldenburg, sans-serif;
+	font-size:18px;
+	font-weight: lighter;
+	line-height:150%;
+	word-spacing:3px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	box-shadow:0 2px 2px -2px rgba(0,0,0,0.4);
+}
+
+/*Below is the CSS for the Photoreel Portfolio*/
+
+#photoreel{
+
+	width: 60%;
+	height: 500px;
+	background-color: black;
+	z-index: 4;
+	margin-left: 20%;
+}
+/*Below is the CSS for the FOOTER*/
+
+#footer{
+	position:static;
+	width:100%;
+	height:20%;
+	background-color:#434c56;
+	box-shadow: 0 -5px 2px -2px rgba(0,0,0,0.4);
+	text-align: center;
+	opacity: 0.7;
+}
+
+#footer p{
+	opacity:1;
+}
